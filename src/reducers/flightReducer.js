@@ -1,4 +1,3 @@
-
 import { FETCH_FLIGHT_SUCCESS,
          FETCH_FLIGHT_REQUEST,
          FETCH_FLIGHT_FAILURE }     from '../constants/constants'
