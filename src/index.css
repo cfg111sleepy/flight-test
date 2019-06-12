@@ -12,3 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.styleButton {
+  color: #1eb7ee !important;
+  border-bottom: 3px solid #1eb7ee !important;
+}

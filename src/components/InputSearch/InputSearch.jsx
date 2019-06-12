@@ -6,5 +6,6 @@ const InputSearch = styled.input`
     border: none;
     padding-left: 70px;
     padding-right: 220px;
+    width: 100%;
 `
 export default InputSearch

@@ -6,6 +6,10 @@ const Navbar = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
+    @media (max-width: 992px) {
+        display: none;
+    }
 
 `
 

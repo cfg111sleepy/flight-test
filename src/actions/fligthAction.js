@@ -3,15 +3,21 @@ import { FETCH_FLIGHT_SUCCESS,
 
 export const getFlight = () => {
 return dispatch => {
-   fetch('https://api.iev.aero/api/flights/06-04-2019')
-       .then(response => response.json())
-       .then(json => dispatch({
-           type: FETCH_FLIGHT_SUCCESS,
-           payload: json
-       }))
-       .catch(()=> dispatch({
-           type: FETCH_FLIGHT_FAILURE,
-           payload: null
-       }))
+    const dateObj = new Date()
+    const month = dateObj.getUTCMonth() + 1
+    const day = dateObj.getUTCDate()
+    const year = dateObj.getUTCFullYear()
+    const newdate = `${day}-${month}-${year}`
+    
+    fetch(`https://api.iev.aero/api/flights/${newdate}`)
+        .then(response => response.json())
+        .then(json => dispatch({
+            type: FETCH_FLIGHT_SUCCESS,
+            payload: json
+        }))
+        .catch(()=> dispatch({
+            type: FETCH_FLIGHT_FAILURE,
+            payload: null
+        }))
     }
 }

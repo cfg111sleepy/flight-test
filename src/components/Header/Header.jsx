@@ -10,6 +10,11 @@ const Header = styled.header`
     height: 80px;
     font-size: 100%;
     box-shadow: 0 5px 10px rgba(37,40,41,.3);
+
+    @media (max-width: 992px) {
+        justify-content: flex-start;
+        height: 50px;
+    }
 `
 
 export default Header
