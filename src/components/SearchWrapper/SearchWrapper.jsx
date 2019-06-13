@@ -8,9 +8,6 @@ const SearchWrapper = styled.div`
     padding-left: 10px;
     padding-right: 10px;
     
-    @media (min-width: 992px) {
-        max-width: 960px;
-    }
 `
 
 export default SearchWrapper

@@ -1,8 +1,8 @@
-import React, {useState}from 'react'
-import TitleSearch      from '../../components/TitleSearch/TitleSearch'
-import InputSearch      from '../../components/InputSearch/InputSearch'
-import SearchWrapper    from '../../components/SearchWrapper/SearchWrapper'
-import ButtonSearch     from '../../components/ButtonSearch/ButtonSearch'
+import React, { useState }  from 'react'
+import TitleSearch          from '../../components/TitleSearch/TitleSearch'
+import InputSearch          from '../../components/InputSearch/InputSearch'
+import SearchWrapper        from '../../components/SearchWrapper/SearchWrapper'
+import ButtonSearch         from '../../components/ButtonSearch/ButtonSearch'
 
 const Search = (props) => {
 

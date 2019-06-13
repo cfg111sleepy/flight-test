@@ -5,7 +5,7 @@ import DateWrapper          from '../../components/DateWrapper/DateWrapper'
 import TableWrapper         from '../../components/TableWrapper/TableWrapper'
 import HeadRow              from '../../components/Table/HeadRow'
 import Table                from '../../components/Table/Table'
-import Item                 from '../../components/Item/Item'
+import Item                 from '../Item/Item'
 
 const ListItem = (props) => {
 
@@ -102,6 +102,7 @@ const ListItem = (props) => {
             </DateWrapper>
             <Table>
                 <thead>
+                    {console.log(todayList)}
                     <HeadRow>
                         <th>Терминал</th>
                         <th>Время</th>

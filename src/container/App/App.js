@@ -26,20 +26,20 @@ const App = (props) => {
                     path='/arrival'
                     exact
                     render={ () => {
-                        return  <ListItem 
-                                    list={arrival}
-                                    search={search}
-                                />
+                                return  <ListItem 
+                                            list={arrival}
+                                            search={search}
+                                        />
                     } } 
                 />
                 <Route
                     path='/departure'
                     exact
                     render={ () => {
-                        return  <ListItem 
-                                    list={departure}
-                                    search={search}
-                                />
+                                return  <ListItem 
+                                            list={departure}
+                                            search={search}
+                                        />
                     } } 
                 />
             </Router>

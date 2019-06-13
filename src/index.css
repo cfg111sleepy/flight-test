@@ -16,3 +16,72 @@ code {
   color: #1eb7ee !important;
   border-bottom: 3px solid #1eb7ee !important;
 }
+.linkSecond {
+    margin-top: 40px;
+    width: 45%;
+    color: #1eb7ee;
+    background-color: #fff;
+    border-color: #dee2e6;
+    transition: .3s ease-in-out;
+    outline: none;
+    border: 0;
+    font-size: 24px;
+    line-height: 60px;
+    cursor: default;
+    text-decoration: none;
+    border-radius: 0 80px 0 0;
+    text-align: center;
+    margin-right: 4%;
+
+}
+.linkActiveFirst {
+    margin-top: 40px;
+    width: 45%;
+    border-color: #dee2e6;
+    transition: .3s ease-in-out;
+    outline: none;
+    border: 0;
+    font-size: 24px;
+    line-height: 60px;
+    cursor: default;
+    text-decoration: none;
+    background-color: #1eb7ee;
+    color: #fff;
+    border-radius: 80px 0 0 0;
+    text-align: center;
+    margin-left: 4%;
+}
+.linkFirst {
+    margin-top: 40px;
+    width: 45%;
+    color: #1eb7ee;
+    background-color: #fff;
+    border-color: #dee2e6;
+    transition: .3s ease-in-out;
+    outline: none;
+    border: 0;
+    font-size: 24px;
+    line-height: 60px;
+    cursor: default;
+    text-decoration: none;
+    border-radius: 80px 0 0 0;
+    text-align: center;
+    margin-left: 4%;
+}
+.linkActiveSecond {
+    margin-top: 40px;
+    width: 45%;
+    border-color: #dee2e6;
+    transition: .3s ease-in-out;
+    outline: none;
+    border: 0;
+    font-size: 24px;
+    line-height: 60px;
+    cursor: default;
+    text-decoration: none;
+    background-color: #1eb7ee;
+    color: #fff;
+    border-radius: 0 80px 0 0;
+    text-align: center;
+    margin-right: 4%;
+}
